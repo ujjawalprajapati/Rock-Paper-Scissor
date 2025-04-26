@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="box">
+        <div class="scores">
+            <h3 class="text">Rock Paper Scissor Game</h3>
+            <h4>Select Your Chooise</h4>
+            <p>Computer : 
+                <span id="computer_Score">0</span>
+            </p>
+            <p>You : 
+                <span id="user_Score">0</span>
+            </p>
+        </div>
+
+
+        <div class="hand">
+            <button id="rock">
+                <i class="far fa-hand-rock"></i>
+            </button>
+            <button id="paper">
+                <i class="far fa-hand-paper"></i>
+            </button>
+            <button id="scissors">
+                <i class="far fa-hand-scissors"></i>
+            </button>
+        </div>
+
+
+        <div class="details">
+            <p id="uSelect"></p>
+            <p id="cSelect"></p>
+            <p id="result" class="alert-danger"></p>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
